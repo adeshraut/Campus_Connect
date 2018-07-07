@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.adesh.login.Group_Dance"
+    tools:showIn="@layout/activity_group__dance">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="The most awaited cultural event Aarohan will be held in the month of December.Students interested to represent our college in Group dance competition can come for auditions.For details contact Ajay P.Contact:888810087" />
+
+</android.support.v4.widget.NestedScrollView>

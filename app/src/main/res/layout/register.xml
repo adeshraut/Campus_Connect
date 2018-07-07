@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:background="@drawable/bridge" android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="18dp" android:paddingLeft="18dp" android:paddingBottom="@dimen/activity_vertical_margin"
+    android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/Rusername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/ic_person_white_24dp"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="Username"
+                android:inputType="textEmailAddress"
+                android:padding="12dp"
+                android:textColorHint="#fff" />
+
+            <EditText
+                android:id="@+id/Rpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/ic_lock_white_24dp"
+                android:drawablePadding="16dp"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:padding="16dp"
+                android:textColorHint="#fff" />
+
+            <EditText
+                android:id="@+id/AgainPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/ic_lock_white_24dp"
+                android:drawablePadding="16dp"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:padding="16dp"
+                android:textColorHint="#fff" />
+
+            <EditText android:background="@android:color/transparent"
+                android:layout_height="wrap_content" android:layout_width="match_parent" android:padding="12dp"
+                android:drawableLeft="@drawable/ic_person_white_24dp" android:textColorHint="#fff" android:hint="ERP No."
+                android:drawablePadding="12dp" android:id="@+id/ERP" android:ems="10" android:inputType="textEmailAddress"/>
+
+            <Button
+                android:id="@+id/Register"
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="#f08b98"
+                android:clickable="true"
+                android:onClick="OnRegister"
+                android:padding="16dp"
+                android:text="Register"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

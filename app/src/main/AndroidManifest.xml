@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.adesh.login">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Campus Connect"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:label">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".Display" />
+        <activity android:name=".EventsList" />
+        <activity android:name=".Cultural" />
+        <activity android:name=".Technical" />
+        <activity android:name=".Sports" />
+        <activity android:name=".Requirements" />
+        <activity android:name=".Summit" />
+        <activity
+            android:name=".Cricket"
+            android:label="@string/title_activity_cricket"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Football"
+            android:label="@string/title_activity_football"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Baseball"
+            android:label="@string/title_activity_baseball"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Volleyball"
+            android:label="@string/title_activity_volleyball"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Badminton"
+            android:label="@string/title_activity_badminton"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Rowing"
+            android:label="@string/title_activity_rowing"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Swimming"
+            android:label="@string/title_activity_swimming"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Carrom"
+            android:label="@string/title_activity_carrom"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Aarohan" />
+        <activity android:name=".Gracia" />
+        <activity
+            android:name=".Solodance"
+            android:label="@string/title_activity_solodance"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Group_Dance"
+            android:label="@string/title_activity_group__dance"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Singing"
+            android:label="@string/title_activity_singing"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Street_Play"
+            android:label="@string/title_activity_street__play"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Dance"
+            android:label="@string/title_activity_dance"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Fashion_Show"
+            android:label="@string/title_activity_fashion__show"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Tesla" />
+        <activity
+            android:name=".Codestorm"
+            android:label="@string/title_activity_codestorm"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Ora_sql"
+            android:label="@string/title_activity_ora_sql"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Rubic_Cube"
+            android:label="@string/title_activity_rubic__cube"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Aerobusters"
+            android:label="@string/title_activity_aerobusters"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Counter_Strike"
+            android:label="@string/title_activity_counter__strike"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Texephyr" />
+        <activity
+            android:name=".Quiz"
+            android:label="@string/title_activity_quiz"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Coding"
+            android:label="@string/title_activity_coding"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".LastPage" />
+        <activity
+            android:name=".dummy.Testing"
+            android:label="@string/title_activity_testing"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.adesh.login.Display">
+
+
+
+    <TextView
+
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:padding="20dip"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="***************** MIT-WPU SUMMIT-THE SPORT EVENT 2017 **************    "
+        android:textSize="13dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="372dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="6dp"
+        android:onClick="OnCLickM"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/TextView03"
+        app:srcCompat="@drawable/y" />
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:padding="20dip"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="********** AAROHAN AUDITIONS 1 NOV, 4:30PM AT D-103  **************    "
+        android:textSize="13dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        tools:ignore="DuplicateIds,MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="300dp"
+        app:layout_constraintTop_toBottomOf="@id/imageButton4"/>
+
+    <TextView
+        android:id="@+id/TextView05"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:padding="20dip"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text=" November 27th is a Holiday!! Have Fun!   "
+        android:textColor="#ff0000"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/TextView04"
+        tools:ignore="DuplicateIds,MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/rtr"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:clickable="true"
+        android:onClick="Menu"
+        android:padding="16dp"
+        android:text="MENU"
+        android:textAllCaps="false"
+        android:textColor="#f16f71"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        tools:ignore="DuplicateIds,MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="435dp"
+        app:layout_constraintTop_toBottomOf="@id/TextView05"/>
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>
+
+
+
+

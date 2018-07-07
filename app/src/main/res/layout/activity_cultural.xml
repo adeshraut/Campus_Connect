@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.adesh.login.Cultural">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:src="@drawable/cultural"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/Taarohan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AAROHAN"
+            android:layout_below="@+id/imageView11"
+            android:layout_alignRight="@+id/Tgoonj"
+            android:layout_alignEnd="@+id/Tgoonj"
+            android:layout_marginTop="205dp" />
+
+        <TextView
+            android:id="@+id/Tgracia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/Taarohan"
+            android:layout_marginRight="300dp"
+            android:layout_marginTop="52dp"
+            android:text="GRACIA" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
